@@ -111,6 +111,7 @@ function App() {
       ))}
 
       <motion.button
+        transition={{ type: "spring", stiffness: 700 }}
         whileHover={{ scale: 1.03 }}
         whileTap={{ scale: 0.9 }}
         className="order-11 col-span-2 mt-3 rounded-md bg-Green600 py-6 text-xl tracking-widest text-white"
